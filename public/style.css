@@ -55,14 +55,6 @@ p, .description{
     background-color: #0984e3;
 }
 
-#page-ideas nav li:last-child a{
-
-
-}
-
-#page-ideas nav li:last-child a:hover{
-}
-
 /* Padrão */
 
 #container{
@@ -169,9 +161,9 @@ footer a:hover{
 #modal{
     background: #ff5e84;
 
-    position: absolute;
-    top: 0;
+    position: fixed;
 
+    top: 0;
     bottom: 0;
     right: 0;
     left: 0;
@@ -187,7 +179,7 @@ footer a:hover{
 }
 
 #modal .content{
-    margin-top: 15%;
+    margin-top: 5%;
 
     color: #fff;
 }
